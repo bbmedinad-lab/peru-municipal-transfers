@@ -211,8 +211,16 @@ Extensiones para el Hito 2:
   regalías), por lo que un Gini alto no equivale por sí solo a un reparto injusto.
 
 ## 14. Uso de IA
-- Se utilizó Claude (Anthropic) como herramienta de apoyo para la programación, exploración metodológica,
-  documentación y revisión del proyecto.
+Este proyecto utilizó **Claude (Anthropic)** como herramienta de soporte técnico y co-piloto de desarrollo. 
+Su aplicación se centró en las siguientes actividades:
+
+* **Desarrollo de Código:** Optimización, refactorización y depuración de los scripts de Python en Google Colab.
+* **Exploración Metodológica:** Evaluación de alternativas para la integración de datos y justificación técnica de diseño.
+* **Documentación:** Estructuración, redacción y revisión editorial de los informes técnicos.
+
+> ⚠️ **Nota de responsabilidad:** La validación de los datos oficiales (MEF e INEI), la lógica detrás de la agregación de
+> las claves de unión (UBIGEO), la interpretación crítica de los gráficos y la toma de decisiones analíticas fueron supervisadas
+> y ejecutadas íntegramente por los autores del proyecto.
 
 ---
 
