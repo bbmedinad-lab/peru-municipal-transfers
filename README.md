@@ -212,7 +212,7 @@ Extensiones para el Hito 2:
 
 ## 14. Uso de IA
 - Se utilizó Claude (Anthropic) como herramienta de apoyo para la programación, exploración metodológica,
-- documentación y revisión del proyecto.
+  documentación y revisión del proyecto.
 
 ---
 
