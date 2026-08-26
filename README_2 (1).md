@@ -1,4 +1,4 @@
-# Hito 1 — Integración de fuentes de datos públicas del Perú
+# Hito 1: Integración de fuentes de datos públicas del Perú
 
 Proyecto de análisis de datos que integra dos fuentes oficiales peruanas a nivel distrital
 para describir cómo se reparten los recursos que el Estado transfiere a las municipalidades.
@@ -34,7 +34,7 @@ afirma causalidad en ninguna conclusión.
 
 ## 4. Fuentes de datos
 
-### Fuente A — principal
+### Fuente A: principal
 
 - **Nombre:** Transferencias de fondos y asignaciones financieras (ejercicio 2024)
 - **Entidad:** Ministerio de Economía y Finanzas (MEF) — Dirección General del Tesoro Público
@@ -57,7 +57,7 @@ afirma causalidad en ninguna conclusión.
 > por el dataset de Transferencias, que tiene los mismos códigos geográficos y por tanto la
 > misma clave de integración, pero un volumen manejable.
 
-### Fuente B — a integrar
+### Fuente B: a integrar
 
 - **Nombre:** Registro Nacional de Municipalidades (RENAMU) 2025
 - **Entidad:** Instituto Nacional de Estadística e Informática (INEI)
@@ -143,7 +143,7 @@ causalidad.
 
 ## 10. Cómo ejecutar
 
-### Opción A — Google Colab (recomendada)
+### Opción A: Google Colab (recomendada)
 
 1. Abrir https://colab.research.google.com
 2. `Archivo` → `Subir cuaderno` → seleccionar `hito1_integracion_mef_renamu.ipynb`
@@ -161,7 +161,7 @@ GUARDAR_EN_DRIVE = False # True guarda las descargas en Drive y sobreviven a una
 La celda de descarga consulta primero el tamaño de cada archivo y luego muestra progreso.
 Si un archivo ya está completo en la carpeta, no lo vuelve a bajar.
 
-### Opción B — Local
+### Opción B: Local
 
 ```bash
 git clone <URL-DEL-REPOSITORIO>
@@ -208,6 +208,10 @@ Extensiones para el Hito 2:
 - El monto transferido no mide la calidad de la gestión municipal ni del gasto posterior.
 - Parte de la desigualdad observada responde a criterios legales de distribución (canon,
   regalías), por lo que un Gini alto no equivale por sí solo a un reparto injusto.
+
+## 14. Uso de IA
+- Se utilizó Claude (Anthropic) como herramienta de apoyo para la programación, exploración metodológica,
+- documentación y revisión del proyecto.
 
 ---
 
