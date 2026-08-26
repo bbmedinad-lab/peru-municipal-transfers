@@ -175,12 +175,13 @@ jupyter notebook hito1_integracion_mef_renamu.ipynb
 ```
 .
 ├── README.md
-├── hito1_integracion_mef_renamu.ipynb   # notebook principal
-├── datos/                               # se crea al ejecutar (no se versiona)
-│   ├── 2024-Transferencias.csv
+├── hito1_integracion_mef_renamu.ipynb   #notebook principal
+├── .gitignore
+├── datos/                               #se crea al ejecutar (no se versiona)
+│   ├── 2024-Transferencias.zip          #debido a su tamaño lo comprimimos a zip
 │   ├── Transferencias_Diccionario.csv
 │   └── renamu2025.zip
-└── base_integrada_hito1.csv             # salida del notebook
+└── base_integrada_hito1.csv             #salida del notebook
 ```
 
 Los archivos de datos **no se suben al repositorio** por su tamaño; el notebook los descarga
