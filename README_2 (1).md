@@ -75,7 +75,7 @@ recurso *"Data completa del Registro Nacional de Municipalidades (RENAMU) 2025"*
 
 ### Fuente auxiliar (validación de la clave)
 
-- **INEI — Ubigeos, 1 891 distritos:**
+- **INEI: Ubigeos, 1 891 distritos:**
   https://www.datosabiertos.gob.pe/dataset/ubigeos-códigos-de-ubicación-geográfica-instituto-nacional-de-estadística-e-informática-inei
 
 ## 5. Unidad de análisis
