@@ -8,7 +8,7 @@ para describir cómo se reparten los recursos que el Estado transfiere a las mun
 ## 1. Problema
 
 El Estado peruano transfiere cada año recursos a las municipalidades por distintos rubros
-—FONCOMUN, canon, regalías, programas sociales—. Esa información la publica el MEF, mientras
+(FONCOMUN, canon, regalías, programas sociales). Esa información la publica el MEF, mientras
 que las características de las municipalidades que reciben ese dinero las publica el INEI.
 Están en sistemas separados, así que no es posible responder directamente:
 
