@@ -1,4 +1,4 @@
-# Hito 1: Integración de fuentes de datos públicas del Perú
+# Hito 1: Análisis de transacciones municipales
 
 Proyecto de análisis de datos que integra dos fuentes oficiales peruanas a nivel distrital
 para describir cómo se reparten los recursos que el Estado transfiere a las municipalidades.
