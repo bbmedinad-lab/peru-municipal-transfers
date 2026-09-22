@@ -1,4 +1,4 @@
-# Hito 1: Análisis de transacciones municipales
+# Hito 2: Identificación de patrones atípicos en las transferencias de fondos a gobiernos locales del Perú (2024)
 
 Proyecto de análisis de datos que integra dos fuentes oficiales peruanas a nivel distrital
 para describir cómo se reparten los recursos que el Estado transfiere a las municipalidades.
