@@ -210,7 +210,40 @@ Extensiones para el Hito 2:
 - Parte de la desigualdad observada responde a criterios legales de distribución (canon,
   regalías), por lo que un Gini alto no equivale por sí solo a un reparto injusto.
 
-## 14. Uso de IA
+## 14. Matriz analítica
+
+Diccionario de variables de la base integrada (`base_final`), pensado para dar
+trazabilidad a las decisiones de limpieza e integración: de qué fuente viene cada
+columna, qué tipo de dato es y qué transformación se le aplicó antes de llegar a la
+base final. Se genera en el notebook (celda al cierre de la Sección 10) y se exporta
+como `matriz_analitica_hito1.csv`.
+
+| Variable | Fuente | Tipo de dato | Descripción | Transformación |
+|---|---|---|---|---|
+| `ubigeo` | RENAMU (clave) | texto | Identificador geográfico de 6 dígitos, clave de integración | Normalizada a texto con ceros a la izquierda (`zfill(6)`) |
+| `departamento` | RENAMU | texto | Departamento de la municipalidad | Sin transformar |
+| `provincia` | RENAMU | texto | Provincia de la municipalidad | Sin transformar |
+| `distrito` | RENAMU | texto | Distrito de la municipalidad | Sin transformar |
+| `tipomuni` | RENAMU | texto | Tipo de municipalidad (1 = provincial, 2 = distrital) | Usada para filtrar centros poblados (`tipomuni = 3`) antes del cruce |
+| `MUNICIPALIDAD` | MEF | texto | Nombre de la unidad ejecutora / municipalidad | Sin transformar |
+| `DEPARTAMENTO_MEF` | MEF | texto | Departamento según la unidad ejecutora del MEF | Sin transformar |
+| `MONTO_AUTORIZADO` | MEF | numérico | Monto autorizado para transferencia, ejercicio 2024 | Agregado por suma a nivel distrito (`groupby("UBIGEO")`) desde el detalle original (ejecutora × mes × rubro) |
+| `MONTO_ACREDITADO` | MEF | numérico | Monto efectivamente acreditado, ejercicio 2024 | Agregado por suma a nivel distrito, mismo criterio que el anterior |
+| `ACREDITACION_PCT` | Derivada | numérico | Monto acreditado como % del autorizado | Calculada solo cuando `MONTO_AUTORIZADO > 0`, para evitar división por cero |
+
+Unidad de análisis de la matriz: una fila = una municipalidad (un distrito), ejercicio 2024 — la misma unidad de análisis declarada en la Sección 5.
+
+## 15. Cambios hechos
+
+Correcciones aplicadas al Hito 1 a partir de la revisión de la primera entrega:
+
+| # | Cambio | Justificación |
+|---|---|---|
+| 1 | Se agregó la Sección 15, Matriz analítica, con su celda correspondiente en el notebook | Faltaba documentar de forma explícita el origen, tipo y transformación de cada variable de la base integrada; antes esa información estaba implícita en el código, no consolidada en una tabla |
+| 2 | Se redujo el número de gráficos de 8 a 4|
+| 3 | Se cambió el título del proyecto |
+
+## 16. Uso de IA
 Este proyecto utilizó **Claude (Anthropic)** como herramienta de soporte técnico y co-piloto de desarrollo. 
 Su aplicación se centró en las siguientes actividades:
 
