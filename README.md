@@ -15,6 +15,8 @@ el MEF y las características de las municipalidades el INEI, en sistemas separa
 municipalidad que muestre qué tan concentrado está el reparto ni qué municipalidades reciben montos muy por encima o
 muy por debajo del resto.
 
+El dinero que el Estado transfiere a las municipalidades se reparte de forma muy desigual, en parte por reglas como el canon que concentran recursos en pocos territorios, y quienes supervisan esos recursos no tienen una forma sistemática de identificar qué municipalidades reciben montos fuera de lo normal para revisarlas.
+
 > **Pregunta:** ¿qué tan concentradas están las transferencias 2024 entre las municipalidades del Perú y cuáles se
 > ubican en los extremos del reparto?
 
