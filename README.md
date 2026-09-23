@@ -1,10 +1,9 @@
-[README.md](https://github.com/user-attachments/files/32576420/README.1.md)
 # ¿A quién llega el dinero? Concentración de las transferencias del Estado a las municipalidades del Perú, 2024
 
 Proyecto de análisis de datos que integra dos fuentes oficiales peruanas a nivel de municipalidad para medir qué tan
 concentrado está el reparto de las transferencias del Estado e identificar las municipalidades en los extremos.
 
-**Estado actual: Hito 2 — preparación de datos y primera matriz analítica.**
+**Estado actual: Hito 2: preparación de datos y primera matriz analítica.**
 
 ---
 
